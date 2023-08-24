@@ -3,6 +3,6 @@
 n=int(input("Enter number:"))
 s=int(input("enter the bit position to be checked:"))
 if(n&(1<<s)):
-    print(True)
+    print("bit is 1")
 else:
-    print(False)
+    print("bit is 0")
